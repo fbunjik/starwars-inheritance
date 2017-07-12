@@ -15,7 +15,7 @@ namespace StarWars.Warriors
 
         public override void OnJoinBattle(BattleSimulator simulator)
         {          
-            simulator.LightSide.Morale -= 5;
+            simulator.LightSide.Morale -= 3;
             Console.WriteLine("Az ellenfél morálja -3 ponttal csökkent");
         }
 

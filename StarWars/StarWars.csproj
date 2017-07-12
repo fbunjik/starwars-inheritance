@@ -59,6 +59,8 @@
     <Compile Include="Warriors\JarJar.cs" />
     <Compile Include="Jedi.cs" />
     <Compile Include="Warriors\LukeSkywalker.cs" />
+    <Compile Include="Warriors\Obi Wan Kenobi.cs" />
+    <Compile Include="Warriors\Windu.cs" />
     <Compile Include="Warriors\Yoda.cs" />
   </ItemGroup>
   <ItemGroup>
