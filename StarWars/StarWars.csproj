@@ -49,6 +49,7 @@
     <Compile Include="Side.cs" />
     <Compile Include="ForceUser.cs" />
     <Compile Include="Sith.cs" />
+    <Compile Include="Sith\DarthMaul.cs" />
     <Compile Include="Warrior.cs" />
     <Compile Include="Warriors\JarJar.cs" />
     <Compile Include="Jedi.cs" />
@@ -58,7 +59,7 @@
     <None Include="warriors.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Warriors\" />
+    <Folder Include="Jedi\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
