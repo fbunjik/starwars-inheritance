@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BattleSimulator.cs" />
+    <Compile Include="Dart Sidius.cs" />
     <Compile Include="FileHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -50,6 +51,8 @@
     <Compile Include="ForceUser.cs" />
     <Compile Include="Sith.cs" />
     <Compile Include="Warrior.cs" />
+    <Compile Include="Warriors\Boba Fett.cs" />
+    <Compile Include="Warriors\Dart Sidius.cs" />
     <Compile Include="Warriors\JarJar.cs" />
     <Compile Include="Jedi.cs" />
   </ItemGroup>
@@ -57,8 +60,6 @@
     <None Include="App.config" />
     <None Include="warriors.txt" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Warriors\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
