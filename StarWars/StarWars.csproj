@@ -50,11 +50,15 @@
     <Compile Include="Side.cs" />
     <Compile Include="ForceUser.cs" />
     <Compile Include="Sith.cs" />
+    <Compile Include="Sith\DarthMaul.cs" />
     <Compile Include="Warrior.cs" />
     <Compile Include="Warriors\Boba Fett.cs" />
     <Compile Include="Warriors\Dart Sidius.cs" />
+    <Compile Include="Warriors\HanSolo.cs" />
+    <Compile Include="Warriors\Jabba.cs" />
     <Compile Include="Warriors\JarJar.cs" />
     <Compile Include="Jedi.cs" />
+    <Compile Include="Warriors\Yoda.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

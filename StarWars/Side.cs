@@ -5,10 +5,16 @@ namespace StarWars
     class Side
     {
         readonly static Random _rand = new Random();
+
+        //public Warrior[] Warriors { get; }
+        readonly Warrior[] _warriors;
         public Warrior[] Warriors;
+
         Warrior _current;
 
         public int Morale { get; set; }
+        public bool HanSoloDied { get; set; }
+
 
         public Side(Warrior[] warriors, bool isLightSide)
         {
@@ -25,6 +31,13 @@ namespace StarWars
         {
             var result = _current ?? (_current = GetRandomWarrior());
             result?.OnJoinBattle(simulator);
+            if (HanSoloDied)
+            {
+                HanSoloDied = false;
+                if (result.Name == "Luke Skywalker")
+                    _current.DecreasePower(simulator, -5);
+            }
+                
             return result;
         }
 
