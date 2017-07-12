@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace StarWars.Warriors
 {
-    class Windu : Jedi
+    class Mace_Windu : Jedi
     {
-        public Windu(int power) : base(power)
+        public Mace_Windu(int power) : base(power)
         {
         }
 
-        public override string Name { get; } = "Windu";
+        public override string Name { get; } = "Mace_Windu";
         public override bool IsLightSide { get; } = true;
         public override bool IsForceUser { get; } = true;
 

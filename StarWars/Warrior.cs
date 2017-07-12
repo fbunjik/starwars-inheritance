@@ -38,8 +38,8 @@ namespace StarWars
                     return new LukeSkywalker(power);
                 case "Yoda":
                     return new Yoda(power);
-                case "windu":
-                    return new Windu(power);
+                case "Mace_Windu":
+                    return new Mace Windu(power);
                 case "Obi Wan Kenobi":
                     return new Obi_Wan_Kenobi(power);
             }
