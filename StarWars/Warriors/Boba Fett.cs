@@ -16,7 +16,7 @@ namespace StarWars.Warriors
 
         public override void OnJoinBattle(BattleSimulator simulator)
         {
-            if(simulator.LightSide.Morale > simulator.DarkSide.Morale)
+            if(simulator.LightSide.Morale < simulator.DarkSide.Morale)
             {
                 this.Power += 2;
             }
