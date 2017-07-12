@@ -16,11 +16,28 @@ namespace StarWars
             var data = s.Substring(1).Split('#');
             var name = data[0].Replace('_', ' ');
             var power = int.Parse(data[1]);
+
             switch (name)
             {
                 //TODO további warrior példányosítások itt.
                 case "Jar Jar":
                     return new JarJar(power);
+                case "Boba Fett":
+                    return new Boba_Fett(power);
+                case "Dart Sidious":
+                    return new Dart_Sidius(power);
+                case "Darth Vader":
+                    return new DarthVader(power);
+                case "Darth Maul":
+                    return new DarthMaul(power);
+                case "Han Solo":
+                    return new HanSolo(power);
+                case "Jabba":
+                    return new Jabba(power);
+                case "Luke Skywalker":
+                    return new LukeSkywalker(power);
+                case "Yoda":
+                    return new Yoda(power);
             }
             return null;
         }
