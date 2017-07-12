@@ -43,21 +43,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BattleSimulator.cs" />
-    <Compile Include="Dart Sidius.cs" />
     <Compile Include="FileHandler.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Side.cs" />
     <Compile Include="ForceUser.cs" />
     <Compile Include="Sith.cs" />
-    <Compile Include="Sith\DarthMaul.cs" />
     <Compile Include="Warrior.cs" />
     <Compile Include="Warriors\Boba Fett.cs" />
     <Compile Include="Warriors\Dart Sidius.cs" />
+    <Compile Include="Warriors\DarthMaul.cs" />
+    <Compile Include="Warriors\DarthVader.cs" />
     <Compile Include="Warriors\HanSolo.cs" />
     <Compile Include="Warriors\Jabba.cs" />
     <Compile Include="Warriors\JarJar.cs" />
     <Compile Include="Jedi.cs" />
+    <Compile Include="Warriors\LukeSkywalker.cs" />
     <Compile Include="Warriors\Yoda.cs" />
   </ItemGroup>
   <ItemGroup>
