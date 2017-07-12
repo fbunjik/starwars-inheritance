@@ -18,7 +18,7 @@ namespace StarWars.Warriors
 
         public override void PostCombatEffect(BattleSimulator simulator)
         {
-            if (simulator.Chance(50))
+            if (Power != 0 && simulator.Chance(50))
                 Power += 1;
         }
         public override void OnLeaveBattle(BattleSimulator simulator)
